@@ -26,7 +26,7 @@ Any two statements must be separated by a semicolon.
 ## Returns
 
 A scalar constant value of the evaluated expression.
-If the result is a tabular, then the first column and first row will be taken for conversion.
+If the result is a tabular, then the first column of the first row will be taken for conversion.
 
 > [!TIP]
 > You can use a [let statement](letstatement.md) for readability of the query when using `toscalar()`.
